@@ -1,6 +1,6 @@
 var express = require('express')
     , app = express()
-    , db = require('./db/schema')
+    , db = require('./config/dbschema')
     , pass = require('./config/pass')
     , passport = require('passport')
     , basic_routes = require('./routes/basic')
